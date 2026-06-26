@@ -1,0 +1,24 @@
+          +------------------------+
+          |      Arduino IDE       |
+          |  DC Motor Control Code |
+          +-----------+------------+
+                      |
+               Upload via USB
+                      |
+                      ▼
+          +------------------------+
+          |      Arduino UNO       |
+          |    (ATmega328P MCU)    |
+          |                        |
+          | D8 --------> IN1       |
+          | D9 --------> IN2       |
+          | 5V --------> VCC       |
+          | GND -------> GND       |
+          +-----------+------------+
+                      |
+                      ▼
+               L298N Motor Driver
+                      |
+                      ▼
+                BO DC Motor
+          (Forward / Backward)
